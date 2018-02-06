@@ -1,6 +1,6 @@
 package hospital;
 
-public class Doctor extends Employee implements BloodDrawer, CareTaker {
+public class Doctor extends Employee implements CareTaker {
 
 	
 	public Doctor(String empNumber, String empName) {

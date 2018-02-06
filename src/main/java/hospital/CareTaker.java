@@ -1,6 +1,6 @@
 package hospital;
 
-public interface CareTaker {
+public interface CareTaker extends BloodDrawer {
 
 //	public default void attendPatient(Counsellable patient) {
 //		attendPatient(patient, 1);
