@@ -6,7 +6,7 @@ public class SurgeonTest {
 
 	@Test
 	public void shouldReturnOperatingStatus() {
-		Doctor underTest = new Surgeon();
+		Employee underTest = new Surgeon();
 		
 	}
 	

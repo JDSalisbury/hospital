@@ -4,7 +4,9 @@ public class Patient implements Bleedable, Counsellable {
 
 	public static final int DEFAULT_BLOODS = 42;
 	private int bloods = DEFAULT_BLOODS;
-	private int qualityOfLife = 50;
+	private int healthStatus = 10;
+	
+	
 	public int getBloods() {
 		return bloods;
 	}
@@ -14,11 +16,11 @@ public class Patient implements Bleedable, Counsellable {
 	}
 
 	public int getCareStatus() {
-		return qualityOfLife;
+		return healthStatus;
 		
 	}
-	public void addHappiness(int happy) {
-		qualityOfLife += happy;
+	public void administerCare(int care) {
+		healthStatus += care;
 	}
 	
 

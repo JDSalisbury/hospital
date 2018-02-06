@@ -25,7 +25,7 @@ public class NurseTest {
 
 		underTest.attendPatient(patient);
 		int takenCareOf = patient.getCareStatus();
-		assertThat(takenCareOf, is(51));
+		assertThat(takenCareOf, is(15));
 		
 	}
 	
