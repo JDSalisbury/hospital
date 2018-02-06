@@ -22,7 +22,18 @@ public class NurseTest {
 	public void shouldcareForPatient() {
 		CareTaker underTest = new Nurse();
 		Patient patient = new Patient();
-		int 
+
+		underTest.attendPatient(patient);
+		int takenCareOf = patient.getCareStatus();
+		assertThat(takenCareOf, is(51));
 		
 	}
+	
+	@Test
+	public void shouldReturnNumberOfPatients() {
+		Nurse underTest = new Nurse();
+		int number = underTest.numberOfPatients();
+		assertThat(number, is(10));
+	}
+	
 }

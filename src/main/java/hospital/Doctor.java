@@ -1,6 +1,6 @@
 package hospital;
 
-public class Doctor extends Employee implements BloodDrawer {
+public class Doctor extends Employee implements BloodDrawer, CareTaker {
 
 	
 
