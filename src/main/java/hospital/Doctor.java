@@ -1,10 +1,11 @@
 package hospital;
 
-public class Doctor {
+public class Doctor extends Employee implements BloodDrawer {
 
-	public void drawBlood(Patient patient) {
-		patient.removeBlood(1);
-		
+	
+
+	public int getSalary() {
+		return 90000;
 	}
 
 }
