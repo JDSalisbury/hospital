@@ -6,7 +6,7 @@ public class Surgeon extends Doctor implements CareTaker {
 	private String specialty;
 
 	public Surgeon(String empNumber, String empName, String specialty, boolean isPracticing) {
-		super(empNumber, empName);
+		super(empNumber, empName, specialty);
 		this.isPracticing = isPracticing;
 		this.setSpecialty(specialty);
 	}

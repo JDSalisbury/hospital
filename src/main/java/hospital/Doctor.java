@@ -3,9 +3,13 @@ package hospital;
 public class Doctor extends Employee implements CareTaker {
 
 	
-	public Doctor(String empNumber, String empName) {
+	private String specialty;
+
+
+	public Doctor(String empNumber, String empName, String specialty) {
 		this.empNumber = empNumber;
 		this.empName = empName;
+		this.specialty= specialty;
 	}
 
 
@@ -18,6 +22,16 @@ public class Doctor extends Employee implements CareTaker {
 	@Override
 	public int getSalary() {
 		return 90000;
+	}
+
+
+	public String getSpecialty() {
+		return specialty;
+	}
+
+
+	public void setSpecialty(String specialty) {
+		this.specialty = specialty;
 	}
 
 }

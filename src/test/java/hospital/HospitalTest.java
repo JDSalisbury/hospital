@@ -14,7 +14,7 @@ public class HospitalTest {
 	@Test
 	public void shouldBeAbleToHireAnEmployee() {
 		
-		Doctor doctor = new Doctor("","");
+		Doctor doctor = new Doctor("","","");
 		hospital.addEmployee(doctor);
 		Collection<Employee> check = hospital.getAllEmployees();
 		assertThat(check, contains(doctor));			
@@ -22,7 +22,7 @@ public class HospitalTest {
 	
 	@Test
 	public void shouldAddTwoEmployees() {
-		Doctor doctor = new Doctor("1111","");
+		Doctor doctor = new Doctor("1111","","");
 		Nurse nurse = new Nurse("2222","",0);
 		hospital.addEmployee(doctor);
 		hospital.addEmployee(nurse);

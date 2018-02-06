@@ -20,7 +20,7 @@ public class Hospital {
 	
 	public void showPayRates() {
 		for (Employee employee: employees.values()) {
-			System.out.println(employee.getEmpName()+ " "+ employee.getEmpNumber());
+			System.out.println(employee.getEmpNumber()+ " "+ employee.getSalary());
 		}
 	}
 	

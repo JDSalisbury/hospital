@@ -1,6 +1,6 @@
 package hospital;
 
-public class Janitor extends Employee implements BloodDrawer {
+public class Janitor extends Employee {
 
 	private boolean isSweeping;
 

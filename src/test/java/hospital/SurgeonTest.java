@@ -15,14 +15,14 @@ public class SurgeonTest {
 		assertThat(check, is(true));
 	}
 	
-	@Test
-	public void shouldGoIntoSurgery() {
-		Patient patient = new Patient();
-		int bloodsBefore = patient.getBloods();
-		int healthbefore = patient.getCareStatus();
-		
-		
-	}
+//	@Test
+//	public void shouldGoIntoSurgery() {
+//		Patient patient = new Patient();
+//		int bloodsBefore = patient.getBloods();
+//		int healthbefore = patient.getCareStatus();
+//		
+//		
+//	}
 	
 	
 }
